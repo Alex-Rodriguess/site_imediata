@@ -246,7 +246,7 @@ h1, h2, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ff3300;
+  color: #ff0000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -254,7 +254,7 @@ h1, h2, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #ff0000;
 }
 
 @media (max-width: 991px) {
