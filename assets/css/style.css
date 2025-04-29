@@ -90,7 +90,7 @@ h1, h2, h6 {
   right: 300px;
   bottom: 15px;
   z-index: 996;
-  background: #7fa6e9;
+  background: #86a8e2;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -102,7 +102,7 @@ h1, h2, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #7fa6e9;
+  background: #001d4e;
   color: #fff;
 }
 .back-to-top.active {
@@ -246,7 +246,7 @@ h1, h2, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ff0000;
+  color: #fff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -254,7 +254,7 @@ h1, h2, h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #ff0000;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -1511,7 +1511,7 @@ h5{
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #2452a2;
+  background: #a23324;
   color: #fff;
   text-decoration: none;
 }
@@ -3235,3 +3235,94 @@ ul.timeline-list li:before {
   text-decoration: none;
 }
 
+/*----------------------------------------
+ATENDIMENTO WHATSAPP
+-----------------------------------------*/
+/* Botão flutuante */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+  background-color: #25d366;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Janela de chat */
+.chat-popup {
+  position: fixed;
+  bottom: 90px;
+  left: 20px;
+  width: 260px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  padding: 15px;
+  display: none;
+  z-index: 1000;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.chat-header strong {
+  font-size: 16px;
+}
+
+#closePopup {
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Atendentes */
+.attendant {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.attendant img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.info a {
+  color: white;
+  background-color: #25d366;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+  width: fit-content;
+}
